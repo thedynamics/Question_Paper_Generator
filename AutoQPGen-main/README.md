@@ -89,11 +89,5 @@ python -c "import kickstarter; kickstarter.offloadApp()"
 
 > **`10`** - It is equally important to note that "Faculty:" is the correct field name for faculty detail in input Question Bank.     
 
-> **`11`** - It is recommended to enable borders the hidden table structure for the pre-details such as Subject, Sem & Faculty Details section and then re-disable the borders for the same after desired edits.  
-
----
-### **`A SMALL NOTE`**
-> As for the scope of the project, we have only included only One variant of question paper template in `/static/DocxTemplates`.  
-
-> Any new templates or change in template here may require corresponding changes in `/models/DocxDownloader.py` and a user-side mechanism for selection of desired Question Paper template out of the available ones at runtime during question bank creation.  
-
+> **`11`** - It is recommended to enable borders the hidden table structure for the pre-details such as Subject, Sem & Faculty Details section and then re-disable the borders for the same after desired edits.
+> ---
